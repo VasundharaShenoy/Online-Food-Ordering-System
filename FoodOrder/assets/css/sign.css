@@ -1,0 +1,93 @@
+body {
+    background-image: url(food4.jpg);
+    background-size:100% ;
+  }
+  form {
+    background-color: rgba(0,0,0,.85);
+    max-width: 300px;
+    margin: auto;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    top:130px;
+    
+  }
+  
+  input {
+    width: 80%;
+    display: block;
+    padding: 10px 0;
+    margin: 10px auto;
+    border: none;
+    border-radius: 3px;
+    
+  }
+
+  input::-webkit-input-placeholder {
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    transition: opacity .5s;
+    font-family: Inter,sans-serif;
+  }
+
+  input:focus::-webkit-input-placeholder {
+    opacity: 0;
+    font-size: 14px;
+    text-align: center;
+    font-family: Inter,sans-serif;
+  }
+
+  .button-59 {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    height: 40px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 120px;
+    outline: 0;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-radius: 10px;
+  }
+  
+  .button-59:focus {
+    color: #171e29;
+  }
+  
+  .button-59:hover {
+    border-color: #fff;
+    color: #000;
+    fill: #fff;
+  }
+  
+  .button-59:active {
+    border-color: #fff;
+    color: #000;
+    fill: #fff;
+  }
+  
+  @media (min-width: 768px) {
+    .button-59 {
+      min-width: 90px;
+    }
+  }
+  
+  
